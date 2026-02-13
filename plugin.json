@@ -6,7 +6,7 @@
     "Author": "Sami Uysal",
     "Version": "1.0.0",
     "Language": "python",
-    "Website": "https://github.com/Sami-Uysal/UnrealHub",
+    "Website": "https://github.com/Sami-Uysal/Flow.Launcher.Plugin.UnrealHub",
     "IcoPath": "Images\\app.png",
     "ExecuteFileName": "main.py"
 }
