@@ -1,0 +1,12 @@
+{
+    "ID": "e43c0880-01bd-48e7-8ddd-22bf575c8392",
+    "ActionKeyword": "ue",
+    "Name": "UnrealHub",
+    "Description": "Launch Unreal Engine projects managed by UnrealHub",
+    "Author": "Sami Uysal",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/Sami-Uysal/UnrealHub",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}
