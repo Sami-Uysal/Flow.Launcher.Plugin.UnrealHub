@@ -8,14 +8,14 @@ This plugin integrates [UnrealHub](https://github.com/Sami-Uysal/UnrealHub) with
 
 ## Installation
 
-### Method 1: Manual (Current)
+### Method 1: Manual 
 1.  Download or clone this repository.
 2.  Copy the `Flow.Launcher.Plugin.UnrealHub` folder to your Flow Launcher Plugins directory:
     *   `%APPDATA%\FlowLauncher\Plugins`
 3.  Restart Flow Launcher.
 
-### Method 2: Plugin Store (Coming Soon)
-Once published, you will be able to install it via Flow Launcher:
+### Method 2: Plugin Store
+İnstall it via Flow Launcher:
 `pm install UnrealHub`
 
 ## Usage
