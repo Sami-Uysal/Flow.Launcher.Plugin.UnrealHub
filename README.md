@@ -24,6 +24,8 @@ This plugin integrates [UnrealHub](https://github.com/Sami-Uysal/UnrealHub) with
 | :--- | :--- |
 | `ue` | List all recent projects |
 | `ue <name>` | Search for a specific project |
+| `ue <tag name>` | Search for projects by tag |
+| `ue tags` | List all unique tags |
 | `ue engine` | List installed Unreal Engines |
 
 ## Contributing
