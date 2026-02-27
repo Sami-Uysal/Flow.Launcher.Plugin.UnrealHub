@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import sys, os, json, glob, subprocess
+import sys, os, json, glob, subprocess, webbrowser
 parent_folder_path = os.path.abspath(os.path.dirname(__file__))
 lib_path = os.path.join(parent_folder_path, 'lib')
 if lib_path not in sys.path:
@@ -148,6 +148,17 @@ class UnrealHub(FlowLauncher):
         }
 
     def query(self, query):
+        if not os.path.exists(self.get_app_data_path()):
+            return [{
+                "Title": "UnrealHub is not installed",
+                "SubTitle": "Click here to download UnrealHub",
+                "IcoPath": "Images/app.png",
+                "JsonRPCAction": {
+                    "method": "open_url",
+                    "parameters": ["https://github.com/Sami-Uysal/UnrealHub"]
+                }
+            }]
+
         results = []
         query_lower = query.lower()
         
@@ -261,6 +272,9 @@ class UnrealHub(FlowLauncher):
     def open_explorer(self, path):
         if os.path.exists(path):
             subprocess.Popen(f'explorer /select,"{path}"')
+
+    def open_url(self, url):
+        webbrowser.open(url)
 
 if __name__ == "__main__":
     UnrealHub()

@@ -4,7 +4,7 @@
     "Name": "UnrealHub",
     "Description": "Launch Unreal Engine projects managed by UnrealHub",
     "Author": "Sami Uysal",
-    "Version": "1.1.0",
+    "Version": "1.1.1",
     "Language": "python",
     "Website": "https://github.com/Sami-Uysal/Flow.Launcher.Plugin.UnrealHub",
     "IcoPath": "Images\\app.png",
